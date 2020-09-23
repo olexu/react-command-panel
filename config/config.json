@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-panel-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/reactPanel/ReactPanelCommandSet.js",
+          "manifest": "./src/extensions/reactPanel/ReactPanelCommandSet.manifest.json"
+        }
+      ]
+    },
+    "react-panel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactPanel/ReactPanelWebPart.js",
+          "manifest": "./src/webparts/reactPanel/ReactPanelWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactPanelCommandSetStrings": "lib/extensions/reactPanel/loc/{locale}.js",
+    "ReactPanelWebPartStrings": "lib/webparts/reactPanel/loc/{locale}.js"
+  }
+}

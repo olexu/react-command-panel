@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-command-panel-client-side-solution",
+    "id": "f3ef15fc-d0b6-43a0-9a0e-9836c6d3a9ce",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "9f8256ec-edbf-4e20-a32a-284dfb252613",
+        "version": "1.0.0.0",
+        "componentIds": [
+            "0b8f0947-030e-4db2-8b71-7eead4061ff4",
+            "f4f5c4e5-43d0-46f4-9ad3-7f763d1ec333"
+        ],
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-command-panel.sppkg"
+  }
+}

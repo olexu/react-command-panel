@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ExportDocument"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet"
+        ClientSideComponentId="0b8f0947-030e-4db2-8b71-7eead4061ff4"
+        ClientSideComponentProperties="">
+    </CustomAction>
+
+</Elements>

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+    "id": "0b8f0947-030e-4db2-8b71-7eead4061ff4",
+    "alias": "ReactPanelCommandSet",
+    "componentType": "Extension",
+    "extensionType": "ListViewCommandSet",
+    "version": "*",
+    "manifestVersion": 2,
+    "requiresCustomScript": false,
+    "items": {
+        "REACT_PANEL": {
+            "title": {
+                "default": "React Panel"
+            },
+            "iconImageUrl": "icons/request.png",
+            "type": "command"
+        }
+    }
+}
